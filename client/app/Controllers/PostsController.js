@@ -21,4 +21,5 @@ export default class PostsController {
 			await PostsService.getPosts()
 		} catch (error) {console.error(error)}
 	}
+
 }
