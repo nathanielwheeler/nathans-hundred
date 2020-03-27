@@ -1,12 +1,19 @@
 /* Styles */
 * {
-	color: rgb(52, 231, 52)!important;
 	background: rgb(9, 51, 9)!important;
 	font-family: hack, monospace;
 }
 
+body {
+	color: rgb(52, 231, 52);
+}
+
+p {
+	color: rgb(0, 181, 0);
+}
+
 hr {
-	border-color: rgb(52, 231, 52);
+	border-color: rgb(0, 181, 0);
 }
 
 img {
@@ -15,10 +22,10 @@ img {
 
 .card {
 	border-radius: 0;
-	border-color: rgb(52, 231, 52);
+	border-color: rgb(0, 181, 0);
 }
 .card-img-top {
 	border-radius: 0;
-	border-top: 1px solid rgb(52, 231, 52);
-	border-bottom: 1px solid rgb(52, 231, 52);
+	border-top: 1px solid rgb(0, 181, 0);
+	border-bottom: 1px solid rgb(0, 181, 0);
 }
